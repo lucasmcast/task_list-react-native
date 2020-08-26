@@ -15,7 +15,7 @@ function AddTask(props){
                 onChangeText={text => {
                     setInputTask({text})
                 }}
-                value={inputTask}
+                value={inputTask.text}
             />    
             <Button onClick={event => {
                 console.log(inputTask.text)
